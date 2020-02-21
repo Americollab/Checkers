@@ -29,22 +29,18 @@
             $_SESSION['userBoardC2'] = $account['boardColor2'];
         }
     }
-
-
-
 ?>
-
 
 <!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="UTF-8">
-    <title>Checkers</title>
-    <link rel="stylesheet" href="menu-stylesheet.css" type="text/css">
+	<title>Checkers</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	 <link rel="stylesheet" href="menu-stylesheet.css" type="text/css">
     <script>
         function closeWindow(){
             var win = window.open("https://www.google.com/", "_self");
@@ -106,3 +102,5 @@
 </body>
 
 </html>
+
+
