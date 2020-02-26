@@ -388,5 +388,22 @@ function closeWindow(){
       }
     }
   });
+
+  this.noMoveLeft() = function() {
+    this.canJumpAny = function () {
+      return (this.canOpponentJump([this.position[0] + 2, this.position[1] + 2]) ||
+        this.canOpponentJump([this.position[0] + 2, this.position[1] - 2]) ||
+        this.canOpponentJump([this.position[0] - 2, this.position[1] + 2]) ||
+        this.canOpponentJump([this.position[0] - 2, this.position[1] - 2]))
+    }
+    //make sure piece doesn't go backwards if it's not a king
+    if (this.player == 1 && this.king == false) {
+      if (tile.position[0] < this.position[0]) return false;
+    } else if (this.player == 2 && this.king == false) {
+      if (tile.position[0] > this.position[0]) return false;
+    }
+  }
+
+
 }
 

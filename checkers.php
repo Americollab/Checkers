@@ -54,10 +54,10 @@ $tranPL2 = $_SESSION['userNameP2'];
     <script type="text/javascript">var PL1 = "<?= $tranPL1 ?>"; var PL2 = "<?= $tranPL2 ?>";</script>
   <script src="script.js"></script>
   <script>
-function rules(){
-  alert("Checkers Information & Directions\nEach player starts with 12 pieces, placed on the dark squares of the board. The objective of the game is to capture all the opponent's pieces by jumping over them.\n\nAbout the game & Rules:\nPieces can only move diagonally on the dark squares (the light squares of the board are never used).\nA normal move is moving a piece diagonally forward one square. The initial pieces can only move forward diagonally, not backwards. You cannot move onto a square that is occupied by another piece. If an opponent piece is on the square diagonally in front of you, you can (and must) jump over it diagonally, thereby capturing it. If you land on a square where you can capture another opponent piece you must jump over that piece as well, immediately.\nOne turn can kill many pieces. It is required to jump over pieces whenever you can.\nIf a piece reaches the end row of the board, on the opponent's side, it becomes a King.\nKings can move diagonally forwards and backwards.\n\nDirections for moving pieces:\nTo move, highlight the piece you would like to move and click it.\nNext, you will click the direction you wish to move it. Please note, If a jump is available, you will need to move your piece in the direction of the jump.");
-}
-</script>
+    function rules(){
+      alert("Checkers Information & Directions\nEach player starts with 12 pieces, placed on the dark squares of the board. The objective of the game is to capture all the opponent's pieces by jumping over them.\n\nAbout the game & Rules:\nPieces can only move diagonally on the dark squares (the light squares of the board are never used).\nA normal move is moving a piece diagonally forward one square. The initial pieces can only move forward diagonally, not backwards. You cannot move onto a square that is occupied by another piece. If an opponent piece is on the square diagonally in front of you, you can (and must) jump over it diagonally, thereby capturing it. If you land on a square where you can capture another opponent piece you must jump over that piece as well, immediately.\nOne turn can kill many pieces. It is required to jump over pieces whenever you can.\nIf a piece reaches the end row of the board, on the opponent's side, it becomes a King.\nKings can move diagonally forwards and backwards.\n\nDirections for moving pieces:\nTo move, highlight the piece you would like to move and click it.\nNext, you will click the direction you wish to move it. Please note, If a jump is available, you will need to move your piece in the direction of the jump.");
+    }
+  </script>
 </head>
 <body>
     

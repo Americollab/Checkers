@@ -6,7 +6,6 @@ html, body{
     background-color: white;
 }
 h1{
-    /*Changes the font"*/
     font-family: "Lato", Calibri, sans-serif;
 }
 .brColor img{
@@ -47,4 +46,21 @@ a:hover {
 	background-color: #f2edd8;
 	color: black;
 	text-decoration: none;
+}
+
+.colorHolder {
+    padding: 0;
+}
+.boardShow1 {
+    width: 190px;
+    height: 80px;
+    border: 2px solid black;
+    padding-right: 0;
+}
+.boardShow2 {
+    width: 190px;
+    height: 80px;
+    border: 2px solid black;
+    padding-left: 0;
+
 }

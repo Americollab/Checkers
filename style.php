@@ -1,6 +1,6 @@
 <?php
-    header("Content-type: text/css;");
-    session_start();
+  header("Content-type: text/css;");
+  session_start();
     
 ?>
 
@@ -18,7 +18,7 @@ html, body {
     
   /*Example: font-family: "Lato", Calibri, sans-serif;*/
     /*Font to for Checker page*/
-    font-family: monospace;
+  font-family: monospace;
   font-size: 16px;
     
     
@@ -26,8 +26,8 @@ html, body {
     
     
   background-image: url(blue_wave_menu_background.jpg); 
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
   html h1, body h1 {
     margin-top: 10px; }
