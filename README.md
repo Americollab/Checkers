@@ -6,7 +6,7 @@ Play by selecting your piece and clicking on the tile you want to move to. Click
 ## Code
 The code supports all the features of checkers including kingship and double/triple/quadruple jumping. The Board object controls the board and therefore the game. The pieces and tiles instances are used in the game for checking whether a piece can be moved, moving a piece, deleting a piece, checking whether tile is in range, and much more. The script is fully commented and original.
 
-If you find any bugs, please make a Pull Request or an Issue.
+If you find any bugs, please open a new issue so it can be tracked and fixed.
 
 
 ## Live Demo
