@@ -62,7 +62,7 @@
                 </div>
                 <div class="col-md-4">
                     <img id="play" src="menuImg/play.png">
-                    <a href="checkers.php">Play Checkers</a>
+                    <a href="activeGames.php">Play Checkers</a>
                 </div>
                 <div class="col-md-4">
                 </div>
